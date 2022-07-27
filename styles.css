@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+  padding: 20px;
+}
+main {
+  width: 375px;
+  background-color: #ffffff;
+  fill: solid;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.hd-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 10px 10px;
+}
+header {
+  background-color: white;
+  border-radius: 3px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.status-bars {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 21px 12px;
+  margin-top: 8px;
+}
+.frames {
+  display: flex;
+  padding: 6px;
+  gap: 1rem;
+}
+.triangle {
+  width: 7px;
+  height: 5px;
+}
+.details {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+.line {
+  border-bottom: 5px solid black;
+  padding: 0.2px;
+  background-color: black;
+  width: 134px;
+  height: 5px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
